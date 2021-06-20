@@ -4,7 +4,8 @@ Components :
 
 -servo motor
 
-*NOTES
+**NOTES
+
 *connecting The RED & BLACK cable to 5V/Ground respectfully
 
 *we plug the yellow cable to pin No.9 , that provides PWM signal .
