@@ -1,0 +1,27 @@
+#include <Servo.h>
+
+int First = 0;
+
+int i = 0;
+
+int j = 0;
+
+Servo servo_9;
+
+void setup()
+{
+  servo_9.attach(9, 500, 2500);
+
+}
+
+void loop()
+{
+  First = 0;
+  for (First = 1; First <= 90; First += 1) {
+    servo_9.write(First);
+    delay(20); // Wait for 20 millisecond(s)
+  }
+  for (First = 90; First >= 1; First -= 1) {
+    servo_9.write(First);
+  }
+}
