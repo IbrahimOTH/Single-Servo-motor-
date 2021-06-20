@@ -4,7 +4,7 @@ Components :
 
 -servo motor
 
-**NOTES:
+NOTES:
 
  **connecting The RED & BLACK cable to 5V/Ground respectfully
 
